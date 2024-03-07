@@ -1,0 +1,39 @@
+footer{
+    background-color: #1b93c7;
+    color: #fff;
+    padding: 20px;
+    text-align: start;
+}
+.main4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.c{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+h4{
+    padding-left: 8px;
+    color: rgb(255, 233, 178);;
+}
+.ql ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+.ql ul li a{
+    text-decoration: none;
+    color: rgb(255, 233, 178);
+    font-weight: 600;
+}
+.Socmed ul li{
+    list-style-type: none;
+    padding: 2px;
+}
+.Socmed ul li a{
+    text-decoration: none;
+    color: rgb(255, 233, 178);
+    font-weight: 600;
+}

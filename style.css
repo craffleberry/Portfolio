@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    color: #020024;
+}
+nav{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 5%;
+    padding-left: 3%;
+}
+.logos{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 45px;
+    cursor: pointer;
+}
+.name{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    color: #1c95cb;
+    font-size: 23px;
+    padding-left: 10px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 35px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #1c95cb;
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color:#0b3149;
+    margin: auto;
+    display: block;
+}
+nav ul li a:hover::after{
+    width: 100%;
+    transition: width 0.3s linear;
+    /* margin-top: 8px; */
+}
+nav ul li a:hover{
+    color:#0b3149;
+}
+#hero{
+    width: 100%;
+    height: 100vh;
+    background: rgb(250,245,232);
+    background: linear-gradient(0deg, rgba(250,245,232,0) 0%, rgba(250,245,232,1) 100%);
+}
+.contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container{
+    display: flex;
+    align-items: center; /* Vertically center items */
+    height: 100vh; /* Optional: Set container height */
+}
+.vertical-line {
+    border-left: 12px solid #f9e5af; /*Adjust color and thickness as needed */
+    height: 355px;  /* Take up full height of container */
+    margin: 0px 30px;
+}
+.contentname{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.logo2{
+    height: 305px;
+    cursor: pointer;
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+.name1{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 800;
+    color:#0b3149;
+    font-size: 40px;
+    padding-left: 10px;
+}
+.formal{
+    display: flex;
+    align-items: end;
+    position: relative;
+    justify-content: end;
+}
+.me{
+    height: 550px;
+    padding-right: 60px;
+    position: absolute;
+    z-index: 1;
+}
+.shapes{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    justify-content: space-between;
+    align-items: end;
+    opacity: 1;
+}
+.shape{
+    justify-content: space-between; /* Add space between items in a row */
+    margin-bottom: 25px; 
+}
+.shape1{
+    width: 450px;
+    height: 120px;
+    background: #e9bb0a;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0 100%);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.566);
+}
+.shape2{
+    width: 620px;
+    height: 120px;
+    background: #1b93c7;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0 100%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.shape3{
+    width: 830px;
+    height: 130px;
+    background: #f48419;
+    clip-path: polygon(23% 0%, 100% 0%, 100% 100%, 0 100%);
+}
+.skills{
+    padding-top: 20px;
+}

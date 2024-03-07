@@ -1,0 +1,82 @@
+#Message{
+    width: 100%;
+    height: 100vh;
+    background: white;
+}
+.shape7{
+    width: 800px;
+    height: 50px;
+    clip-path: polygon(0 0, 100% 0, 67% 100%, 0 100%);
+    background: rgb(233,189,13);
+    background: linear-gradient(77deg, rgba(233,189,13,1) -27%, rgba(233,189,13,1) 0%, rgba(233,189,13,0.3983718487394958) 100%);
+}
+form{
+    padding: 20px 50px;
+}
+.main2 input{
+    width: 50%;
+    height: 60px;
+    padding: 0 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    background: rgb(231, 231, 231);
+    font-size: 18px;
+}
+.main2 textarea{
+    width: 100%;
+    height: 250px;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    background: rgb(231, 231, 231);
+}
+.conbut{
+    text-align: end;
+}
+button{
+    background: #1b93c7;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 5px 50px;
+    border: none;
+    color:white;
+    margin: 4px 2px;
+    padding: 10px;
+}
+button:hover{
+    background: rgb(249,229,175);
+    color: #1b93c7;
+    border: 1px solid rgb(215, 193, 135);
+    box-shadow: 0 0 10px rgb(249,229,175);
+}
+/* .textb{
+    padding: 20px 0px 0px 50px;
+
+}
+.email{
+    display: flex;
+    width: 50%;
+    justify-content: start;
+    border: none;
+    background: rgb(231, 231, 231);
+}
+input[type="text"]{
+    padding: 13px;
+    font-size: 16px;
+}
+.messages{
+    display: flex;
+    width: 90%;
+    height: 250px;
+    justify-content: start;
+    border: none;
+    background: rgb(231, 231, 231);
+    margin-top: 20px;
+} */

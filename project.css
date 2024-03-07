@@ -1,0 +1,124 @@
+#project{
+    width: 100%;
+    height: 100vh;
+    background: rgb(249,229,175);
+    background: linear-gradient(0deg, rgba(249,229,175,0.6924894957983193) 0%, rgba(249,229,175,0) 100%);
+}
+.main1{
+    position: relative;
+}
+.titlepage.project{
+    padding-top: 20px;
+}
+.shape5{
+    width: 800px;
+    height: 50px;
+    clip-path: polygon(0 0, 100% 0, 67% 100%, 0 100%);
+    background: rgb(245,133,26);
+    background: linear-gradient(87deg, rgba(245,133,26,1) 0%, rgba(245,133,26,0.801733193277311) 64%, rgba(245,133,26,0) 100%);
+}
+.slider-container {
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+.card {
+    flex: 0 0 auto;
+    width: 280px; /* Adjust as needed */
+    height: 350px;
+    margin-right: 50px; /* Adjust spacing between cards */
+    scroll-snap-align: start;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 10px rgb(28,149,192); /* Add drop shadow */
+} 
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.card img {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.card-content {
+    padding: 5px 20px 5px 20px;
+}
+.card-content h2 {
+    margin-top: 0;
+    display: flex;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    color: #0b3149;
+    font-size: 20px;
+}
+.card-content p {
+    margin-bottom: 0;
+    color:#f5851a;
+    font-weight:500;
+    font-size: 15px;
+}
+.containerbtn{
+    text-align: center;
+}
+.btn{
+    background: #1b93c7;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 5px 50px;
+    border: none;
+    color:white;
+    margin: 4px 2px;
+
+}
+.btn:hover{
+    background: rgb(249,229,175);
+    color: #1b93c7;
+    border: 1px solid rgb(215, 193, 135);
+    box-shadow: 0 0 10px rgb(249,229,175);
+}
+.container3{
+    position: absolute;
+    display: flex;
+    align-items:last baseline;
+    justify-content: start;
+    z-index: 0;
+}
+.shape6{
+    display: flex;
+    align-items: end;
+    width: 900px;
+    height: 85px;
+    background: rgb(33,144,176);
+    background: linear-gradient(77deg, rgba(33,144,176,1) 0%, rgba(33,144,176,0) 100%);
+    clip-path: polygon(0 0, 73% 0, 100% 100%, 0 100%);
+}
+.slider-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+.prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
